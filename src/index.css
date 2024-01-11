@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-color: #1c1e29;
+}
+
+.CodeMirror {
+    /* height: auto; */
+    min-height: 100vh;
+    font-size: 20px;
+    line-height: 1.6;
+    padding-top: 20px;
+    width: calc(100vw - 240px);
+}
